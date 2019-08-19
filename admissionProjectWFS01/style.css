@@ -1,0 +1,104 @@
+# {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 30px;
+}
+
+.banner {
+    background-color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;   
+}
+
+.banner-informacoes h1{
+    text-align: center;
+    margin: 50px 1px 70px 1px;
+}
+
+.banner-informacoes_future4 {
+clear: both;
+margin-top:20px;
+}
+
+.banner-informacoes_future4 img {
+max-width: 400px;
+max-height: 200px;
+}
+
+
+.banner-informacoes {
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.banner-informacoes_paragrafo {
+    text-align: right;    
+}
+
+.banner-informacoes p{
+    margin: auto;
+    padding: 150px 20px 10px 5px;
+}
+
+/*Seção de codigos*/
+
+.codigos {
+background-color: orangered;
+margin: 0 auto;
+}
+
+.codigos_item-html,
+.codigos_item-css,
+.codigos_item-javascript{
+    background-color:white;
+    padding: 5rem;
+    border-block: 1rem;
+    margin: 40px;
+    color:orangered;
+    display: flex;
+    font-size: 25px;
+}
+
+.codigos_item {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Seção de Email*/
+
+.email {
+    background-color:rgb(155, 154, 154); 
+    text-align: center;
+    padding: 5rem;    
+    }
+
+    .email input {
+        border:1px solid black;
+        padding: 3px 25px 3px 5px;
+        margin: auto;
+        display: inline-flex;
+    }
+
+    .email button {
+        background-color: orangered;
+        color: white;
+        border:1px solid black;
+        padding: 3px 10px 3px 10px;  
+        margin: auto;
+
+    }
+
+    /* Footer*/
+    footer {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 5px;
+        background: darkslateblue;
+        color: white;
+        margin: 0;
+    }
