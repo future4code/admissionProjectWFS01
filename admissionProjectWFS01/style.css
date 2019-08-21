@@ -1,9 +1,12 @@
-# {
+#{
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 body{
-    margin: 30px;
+    margin: 0 auto;
+    font-size: 20px;
 }
 
 .banner {
@@ -16,6 +19,10 @@ body{
 .banner-informacoes h1{
     text-align: center;
     margin: 50px 1px 70px 1px;
+    font-size: 2.3em;
+}
+h1 {
+    font-size: 1.5em;
 }
 
 .banner-informacoes_future4 {
@@ -24,8 +31,8 @@ margin-top:20px;
 }
 
 .banner-informacoes_future4 img {
-max-width: 400px;
-max-height: 200px;
+max-width: 60.0rem;
+max-height: 350px;
 }
 
 
@@ -40,7 +47,11 @@ max-height: 200px;
 
 .banner-informacoes p{
     margin: auto;
-    padding: 150px 20px 10px 5px;
+    padding: 250px 50px 50px 50px;
+    font-size: 20px;
+}
+span{
+    font-size:170%;
 }
 
 /*Seção de codigos*/
@@ -48,15 +59,16 @@ max-height: 200px;
 .codigos {
 background-color: orangered;
 margin: 0 auto;
+padding: 10px 10px 10px 10px;
 }
 
 .codigos_item-html,
 .codigos_item-css,
 .codigos_item-javascript{
     background-color:white;
-    padding: 5rem;
+    padding: 5rem 10rem 5rem 10rem;
     border-block: 1rem;
-    margin: 40px;
+    margin: 20px;
     color:orangered;
     display: flex;
     font-size: 25px;
@@ -74,24 +86,26 @@ margin: 0 auto;
 .email {
     background-color:rgb(155, 154, 154); 
     text-align: center;
-    padding: 5rem;    
-    }
+    padding: 5rem;  
+       }
 
     .email input {
         border:1px solid black;
-        padding: 3px 25px 3px 5px;
+        padding: 10px 150px 10px 150px;
         margin: auto;
         display: inline-flex;
-    }
+        
+            }
+
+    
 
     .email button {
         background-color: orangered;
         color: white;
         border:1px solid black;
-        padding: 3px 10px 3px 10px;  
+        padding: 10px 50px 10px 50px;  
         margin: auto;
-
-    }
+                    }
 
     /* Footer*/
     footer {
