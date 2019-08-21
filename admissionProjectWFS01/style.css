@@ -6,7 +6,7 @@
 
 body{
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .banner {
@@ -18,7 +18,7 @@ body{
 
 .banner-informacoes h1{
     text-align: center;
-    margin: 50px 1px 70px 1px;
+    margin: 3.125rem 0.0625rem 4.375rem 0.0625rem;
     font-size: 2.3em;
 }
 h1 {
@@ -27,12 +27,12 @@ h1 {
 
 .banner-informacoes_future4 {
 clear: both;
-margin-top:20px;
+margin-top:1.25rem;
 }
 
 .banner-informacoes_future4 img {
 max-width: 60.0rem;
-max-height: 350px;
+max-height: 21.875rem;
 }
 
 
@@ -47,8 +47,8 @@ max-height: 350px;
 
 .banner-informacoes p{
     margin: auto;
-    padding: 250px 50px 50px 50px;
-    font-size: 20px;
+    padding: 15.625rem 3.125rem 3.125rem 3.125rem;
+    font-size: 1.25rem;
 }
 span{
     font-size:170%;
@@ -59,7 +59,7 @@ span{
 .codigos {
 background-color: orangered;
 margin: 0 auto;
-padding: 10px 10px 10px 10px;
+padding: 0.625rem 0.625rem 0.625rem 0.625rem;
 }
 
 .codigos_item-html,
@@ -68,10 +68,10 @@ padding: 10px 10px 10px 10px;
     background-color:white;
     padding: 5rem 10rem 5rem 10rem;
     border-block: 1rem;
-    margin: 20px;
+    margin: 1.25rem;
     color:orangered;
     display: flex;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 .codigos_item {
@@ -91,7 +91,7 @@ padding: 10px 10px 10px 10px;
 
     .email input {
         border:1px solid black;
-        padding: 10px 150px 10px 150px;
+        padding: 0.625rem 19.375rem 0.625rem 9.375rem;
         margin: auto;
              
             }
@@ -102,7 +102,7 @@ padding: 10px 10px 10px 10px;
         background-color: orangered;
         color: white;
         border:1px solid black;
-        padding: 10px 50px 10px 50px;  
+        padding: 0.625rem 3.125rem 0.625rem 3.125rem;  
         margin: auto;
                     }
 
@@ -110,8 +110,9 @@ padding: 10px 10px 10px 10px;
     footer {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        padding: 5px;
+        padding: 0.3125rem;
         background: darkslateblue;
         color: white;
         margin: 0;
     }
+
