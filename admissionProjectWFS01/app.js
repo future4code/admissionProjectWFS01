@@ -1,8 +1,4 @@
-<script type ="text/JavaScript">
-var usuario = alert("O email" + usuario + "foi enviado");
-
-if (usuario == null || usuario == "") {
-   text = "O email" + usuario + "foi enviado";
-}     
-
-</script>
+function myFunction() {
+    var id = "O email" + " " + document.getElementById("inputid").value + (" " + "foi enviado.");
+    alert(id);
+}
