@@ -1,118 +1,131 @@
-#{
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+# {
+  box-sizing: border-box;
 }
 
-body{
-    margin: 0 auto;
-    font-size: 1.25rem;
+body {
+  margin: 0 auto;
+  font-size: 1.25rem;
+  display: flex;
 }
 
 .banner {
-    background-color: darkslateblue;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    display: block;   
+  background-color: darkslateblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: block;
 }
 
-.banner-informacoes h1{
-    text-align: center;
-    margin: 3.125rem 0.0625rem 4.375rem 0.0625rem;
-    font-size: 2.3em;
+.banner-informacoes h1 {
+  text-align: center;
+  margin: 3.125rem 0.0625rem 4.375rem 0.0625rem;
+  font-size: 2.3em;
 }
 h1 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .banner-informacoes_future4 {
-clear: both;
-margin-top:1.25rem;
+  clear: both;
+  margin-top: 1.25rem;
 }
 
 .banner-informacoes_future4 img {
-max-width: 60.0rem;
-max-height: 21.875rem;
+  max-width: 60rem;
+  max-height: 21.875rem;
 }
 
-
 .banner-informacoes {
-    padding-top: 10vh;
-    text-align: center;
+  padding-top: 10vh;
+  text-align: center;
 }
 
 .banner-informacoes_paragrafo {
-    text-align: right;    
+  text-align: right;
 }
 
-.banner-informacoes p{
-    margin: auto;
-    padding: 15.625rem 3.125rem 3.125rem 3.125rem;
-    font-size: 1.25rem;
+.banner-informacoes p {
+  margin: 0 auto;
+  padding: 15.625rem 3.125rem 3.125rem 3.125rem;
+  font-size: 1.25rem;
 }
-span{
-    font-size:170%;
+span {
+  font-size: 170%;
 }
 
 /*Seção de codigos*/
 
 .codigos {
-background-color: orangered;
-margin: 0 auto;
-padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  background-color: orangered;
+  margin: 0 auto;
 }
 
 .codigos_item-html,
 .codigos_item-css,
-.codigos_item-javascript{
-    background-color:white;
-    padding: 5rem 10rem 5rem 10rem;
-    border-block: 1rem;
-    margin: 1.25rem;
-    color:orangered;
-    display: flex;
-    font-size: 1.5625rem;
+.codigos_item-javascript {
+  background-color: white;
+  padding: 2.5rem 7rem 2.5rem 7rem;
+  border-block: 1rem;
+  margin: 1rem;
+  color: orangered;
+  display: inline-flex;
+  font-size: 1.5rem;
 }
 
 .codigos_item {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*Seção de Email*/
 
 .email {
-    background-color:rgb(155, 154, 154); 
-    text-align: center;
-    padding: 5rem;  
-       }
+  background-color: rgb(155, 154, 154);
+  text-align: center;
+  padding: 5rem;
+}
 
-    .email input {
-        border:1px solid black;
-        padding: 0.625rem 19.375rem 0.625rem 9.375rem;
-        margin: auto;
-             
-            }
+.email input {
+  border: 1px solid black;
+  padding: 0.625rem 19.375rem 0.625rem 9.375rem;
+  margin: auto;
+}
 
-    
+.email button {
+  background-color: orangered;
+  color: white;
+  border: 1px solid black;
+  padding: 0.625rem 3.125rem 0.625rem 3.125rem;
+  margin: auto;
+}
 
-    .email button {
-        background-color: orangered;
-        color: white;
-        border:1px solid black;
-        padding: 0.625rem 3.125rem 0.625rem 3.125rem;  
-        margin: auto;
-                    }
+/* Footer*/
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0.3125rem;
+  background: darkslateblue;
+  color: white;
+  margin: 0;
+}
+/* deixando o site mais responsivo*/
+@media screen {
+  .banner,
+  .codigos,
+  .email,
+  .codigos_item,
+  .banner-informacoes {
+    min-width: 767px;
+  }
+}
 
-    /* Footer*/
-    footer {
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        padding: 0.3125rem;
-        background: darkslateblue;
-        color: white;
-        margin: 0;
-    }
-
+@media screen and (max-width: 766px) {
+  .banner,
+  .codigos,
+  .banner-informacoes,
+  .email {
+    float: none;
+    min-height: auto;
+  }
+}
