@@ -58,7 +58,7 @@ Toda a documentação necessária para completar o projeto pode ser encontrada n
 Os participantes podem acessar outras referências encontradas na internet.
 ### 3.2 Wireframe e Referências
 O arquivo wireframe.pdf deve ser utilizado como referência para a criação do projeto. O site htpps://future4.com.br pode ser considerado uma página interessante para utilizar como referência.  
-## 4 E agora? O que fazer?
+## 4. E agora? O que fazer?
 Sabemos que aprender a programar pode ser muito desafiador. Aqui seguem algumas dicas de como seguir no desafio de criar um site:  
 - Vá seguindo os tutoriais da w3schools.com .  
 Para esse projeto sugerimos que você siga o tutorial de html (https://www.w3schools.com/html/default.asp) até o item HTML Javascript (https://www.w3schools.com/html/html_scripts.asp), e a seção HTML Forms (https://www.w3schools.com/html/html_forms.asp).  
